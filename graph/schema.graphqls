@@ -28,12 +28,12 @@ input NewCategory {
 input NewCourse {
     name: String!
     description: String!
-    categoryID: ID!
+    categoryId: ID!
 }
 
 input NewChapter {
     name: String!
-    courseId: ID!
+    courseId: ID!    
 }
 
 type Query {
